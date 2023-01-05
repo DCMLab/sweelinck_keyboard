@@ -1,0 +1,16 @@
+Warnings encountered during the last execution of ms3 review (v1.0.4)
+=====================================================================
+
+DCML_HARMONY_SYNTAX_WARNING (15,) ms3.Parse.sweelinck_keyboard.SwWV258_fantasia_cromatica -- /usr/local/lib/python3.10/site-packages/ms3/annotations.py (line 382) expand_dcml():
+	Score contains 1 labels that don't (and 500 that do) match the DCML standard:
+	      mc   mn  label harmony_layer
+	499  193  193  I}(4)             1
+DCML_PHRASE_INCONGRUENCY_WARNING (16,) ms3.Parse.sweelinck_keyboard.SwWV258_fantasia_cromatica -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4940) check_phrase_annotations():
+	Phrase beginning and endings don't match:
+	mn_playthrough phraseend mn_playthrough phraseend
+	            1a         {            NaN       NaN
+Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                                         mc   mn mc_onset     label chord_tones added_tones  n_colored  n_untouched  count_ratio
+sweelinck_keyboard MS3/SwWV258_fantasia_cromatica.mscx   46   46      1/4    V(4)/v   (4, 3, 5)          ()          5            3     0.625000
+                   MS3/SwWV258_fantasia_cromatica.mscx  147  147      1/4  V(4)/III  (0, -1, 1)          ()          5            3     0.625000
+                   MS3/SwWV258_fantasia_cromatica.mscx  186  186      1/2         v   (3, 0, 4)          ()          2            1     0.666667
