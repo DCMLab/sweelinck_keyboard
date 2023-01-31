@@ -21,7 +21,7 @@ jobs:
           path: ${{ github.event.repository.name }}
 
       - name: Run 'ms3 review' via dcml_corpus_workflow action
-        uses: DCMLab/dcml_corpus_workflow@v2.5.8
+        uses: DCMLab/dcml_corpus_workflow@v2.5.9
         id: act_docker
         with:
           ms3-command: ${{ github.event_name }}
