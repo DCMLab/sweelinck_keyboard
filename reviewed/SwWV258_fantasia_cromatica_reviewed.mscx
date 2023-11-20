@@ -153,6 +153,7 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">v2.0</metaTag>
     <metaTag name="composed_end">1621</metaTag>
     <metaTag name="composed_start">1562</metaTag>
     <metaTag name="composer"></metaTag>
@@ -24358,7 +24359,13 @@ SwWV258</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V(4)/v</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V(+4)/v</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/2</fractions>
@@ -27587,7 +27594,13 @@ SwWV258</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>V(4)/III</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V(+4)/III</name>
+            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="4.2436"/>
             </Harmony>
           <location>
@@ -29222,7 +29235,13 @@ SwWV258</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
+            <name>v</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
             <name>V/v</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
