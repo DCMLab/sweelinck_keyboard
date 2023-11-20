@@ -1,7 +1,7 @@
 {
-  "name": "swwv258_fantasia_cromatica.measures",
+  "name": "swwv258_fantasia_cromatica.chords",
   "type": "table",
-  "path": "SwWV258_fantasia_cromatica.measures.tsv",
+  "path": "SwWV258_fantasia_cromatica.chords.tsv",
   "scheme": "file",
   "format": "tsv",
   "mediatype": "text/tsv",
@@ -11,7 +11,7 @@
       "delimiter": "\t"
     }
   },
-  "schema": "https://raw.githubusercontent.com/DCMLab/frictionless_schemas/main/measures/oWlUFOdD06d1_A.schema.yaml",
+  "schema": "https://raw.githubusercontent.com/DCMLab/frictionless_schemas/main/chords/51oPX3h1R7U4HQ.schema.yaml",
   "creator": {
     "@context": "https://schema.org/",
     "@type": "SoftwareApplication",

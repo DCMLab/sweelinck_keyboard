@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
   <programVersion>3.6.2</programVersion>
-  <programRevision></programRevision>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -153,6 +153,7 @@
     <showMargins>0</showMargins>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">v2.0</metaTag>
     <metaTag name="composed_end">1621</metaTag>
     <metaTag name="composed_start">1562</metaTag>
     <metaTag name="composer"></metaTag>
@@ -188,6 +189,7 @@
         <trackName></trackName>
         <instrumentId>keyboard.organ.percussive</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="17"/>
           <synti>Fluid</synti>
           </Channel>
@@ -208,6 +210,7 @@
         <trackName></trackName>
         <instrumentId>keyboard.organ</instrumentId>
         <Channel>
+          <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
           </Channel>
@@ -221,6 +224,11 @@
       <VBox>
         <height>4</height>
         <boxAutoSize>0</boxAutoSize>
+        <Text>
+          <style>Title</style>
+          <text>Fantasia Cromatica
+SwWV258</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -236,6 +244,13 @@
             <offset x="-15.2764" y="-1.72026"/>
             <text>All. mod.</text>
             </StaffText>
+          <Tempo>
+            <tempo>1.3999999999999999</tempo>
+            <followText>1</followText>
+            <visible>0</visible>
+            <offset x="4.33765" y="-7.70092"/>
+            <text><b></b><font face="ScoreText"></font><b><font face="Edwin"></font> = 84</b></text>
+            </Tempo>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -256,12 +271,6 @@
             </Rest>
           </voice>
         <voice>
-          <StaffText>
-            <family>AR BLANCA</family>
-            <size>28</size>
-            <offset x="17.5" y="-21.3125"/>
-            <text>Fantasia Cromatica</text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -276,12 +285,6 @@
             </Rest>
           </voice>
         <voice>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>12</size>
-            <offset x="18.5992" y="-12.4767"/>
-            <text>SwWV 258</text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -333,7 +336,7 @@
           <StaffText>
             <family>Times New Roman</family>
             <size>7</size>
-            <offset x="13.7079" y="-12.6958"/>
+            <offset x="4.04113" y="-11.5804"/>
             <text>Jan Pieterszoon Sweelinck
  (1562-1621)</text>
             </StaffText>
@@ -2486,7 +2489,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
@@ -2501,7 +2503,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
@@ -2516,7 +2517,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
@@ -2531,7 +2531,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>68</pitch>
               <tpc>22</tpc>
               </Note>
@@ -9059,7 +9058,6 @@
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -9076,7 +9074,6 @@
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -9093,7 +9090,6 @@
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -9110,7 +9106,6 @@
             <durationType>16th</durationType>
             <StemDirection>down</StemDirection>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <pitch>76</pitch>
               <tpc>18</tpc>
               </Note>
@@ -22592,7 +22587,6 @@
           <Chord>
             <durationType>eighth</durationType>
             <Note>
-              <color r="255" g="0" b="0" a="255"/>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -24366,6 +24360,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(4)/v</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(+4)/v</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/2</fractions>
@@ -27595,6 +27595,13 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>V(4)/III</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V(+4)/III</name>
+            <color r="0" g="85" b="0" a="255"/>
+            <offset x="0" y="4.2436"/>
             </Harmony>
           <location>
             <fractions>1/2</fractions>
@@ -29229,6 +29236,12 @@
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>v</name>
+            <color r="170" g="0" b="0" a="255"/>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V/v</name>
+            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>
