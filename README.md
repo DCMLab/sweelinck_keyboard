@@ -12,7 +12,7 @@ and serves as welcome page for both
 
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/sweelinck_keyboard/introduction).
 
-# Jan Sweelinck – Organ Pieces (v2.0)
+# Jan Sweelinck – Organ Pieces (v2.1)
 
 
 ## Version history
