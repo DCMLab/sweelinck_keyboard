@@ -26,18 +26,18 @@ Without full version history
 
 If you are only interested in the current version of the corpus, you can download and unpack:
 
-* `sweelinck_keyboard <https://github.com/DCMLab/sweelinck_keyboard/archive/refs/heads/main.zip>`__
+* `Jan Sweelinck – Organ Pieces <https://github.com/DCMLab/sweelinck_keyboard/archive/refs/heads/main.zip>`__
 
 
 Data Formats
 ============
 
-Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, {{ example_full_title }} has the following files:
+Each piece in this corpus is represented by four files with identical names, each in its own folder. For example, the *Fantasia cromatica in d* has the following files:
 
--  ``MS3/{{ example_fname }}.mscx``: Uncompressed MuseScore file including the music and annotation labels.
--  ``notes/{{ example_fname }}.tsv``: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
--  ``measures/{{ example_fname }}.tsv``: A table with relevant information about the measures in the score.
--  ``harmonies/{{ example_fname }}.tsv``: A list of the included harmony labels (including cadences and phrases) with their positions in the score.
+-  ``MS3/SwWV258_fantasia_cromatica.mscx``: Uncompressed MuseScore file including the music and annotation labels.
+-  ``notes/SwWV258_fantasia_cromatica.tsv``: A table of all note heads contained in the score and their relevant features (not each of them represents an onset, some are tied together)
+-  ``measures/SwWV258_fantasia_cromatica.tsv``: A table with relevant information about the measures in the score.
+-  ``harmonies/SwWV258_fantasia_cromatica.tsv``: A list of the included harmony labels (including cadences and phrases) with their positions in the score.
 
 Opening Scores
 --------------
@@ -58,8 +58,8 @@ Since the TSV files contain null values, lists, fractions, and numbers that are 
 
    import ms3
 
-   labels = ms3.load_tsv('harmonies/{{ example_fname }}.tsv')
-   notes = ms3.load_tsv('notes/{{ example_fname }}.tsv')
+   labels = ms3.load_tsv('harmonies/SwWV258_fantasia_cromatica.tsv')
+   notes = ms3.load_tsv('notes/SwWV258_fantasia_cromatica.tsv')
 
 How to read ``metadata.tsv``
 ============================
