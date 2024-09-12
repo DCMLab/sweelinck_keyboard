@@ -188,20 +188,19 @@
         <defaultClef>F</defaultClef>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <trackName>linke Hand</trackName>
-      <Instrument id="percussive-organ">
-        <trackName></trackName>
-        <instrumentId>keyboard.organ.percussive</instrumentId>
+      <trackName>Organ</trackName>
+      <Instrument id="organ">
+        <trackName>Organ</trackName>
+        <instrumentId>keyboard.organ</instrumentId>
         <Channel>
-          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
-          <program value="17"/>
+          <controller ctrl="32" value="17"/>
+          <program value="19"/>
           <synti>Fluid</synti>
           </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
+        <longName>Organ</longName>
+        <shortName>Org.</shortName>
+        <clef>F</clef>
         </Instrument>
       </Part>
     <Part>
@@ -212,7 +211,7 @@
         </Staff>
       <trackName>Pedal</trackName>
       <Instrument id="organ">
-        <trackName></trackName>
+        <trackName>Pedal</trackName>
         <instrumentId>keyboard.organ</instrumentId>
         <Channel>
           <controller ctrl="0" value="0"/>
