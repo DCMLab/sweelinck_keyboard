@@ -15,9 +15,16 @@ For information on how to obtain and use the dataset, please refer to [this docu
 # Jan Sweelinck – Organ Pieces (v2.1)
 
 
+
+## Cite as
+
 ## Version history
 
 See the [GitHub releases](https://github.com/DCMLab/sweelinck_keyboard/releases).
+
+## Questions, Suggestions, Corrections, Bug Reports
+
+Please [create an issue](https://github.com/DCMLab/sweelinck_keyboard/issues) and/or feel free to fork and submit pull requests.
 
 ## License
 
