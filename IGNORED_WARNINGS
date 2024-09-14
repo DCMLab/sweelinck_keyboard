@@ -1,0 +1,4 @@
+INCONSISTENT_INSTRUMENT_CHANGE_WITHIN_PART (31,) ms3.Parse.sweelinck_keyboard.SwWV258_fantasia_cromatica -- /Users/ameliabrey/anaconda3/lib/python3.11/site-packages/ms3/bs4_parser.py (line 4013) set_instrument():
+	The change of staff_1 to organ will also affect staves ['staff_2'] with instruments: 
+	 {'staff_2': 'percussive-organ'}
+	Not a problem because staff 2 is changed as well.

@@ -147,30 +147,35 @@
       <defaultsVersion>301</defaultsVersion>
       <Spatium>1.6</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <metaTag name="P86 (composer)">Q110294</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="compared_against">v2.0</metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1621</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/Jan_Pieterszoon_Sweelinck (composer’s life span)</metaTag>
     <metaTag name="composed_start">1562</metaTag>
-    <metaTag name="composer"></metaTag>
+    <metaTag name="composer">Jan Pieterszoon Sweelinck</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2020-01-07</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Fantasia_cromatica,_SwWV_258_(Sweelinck,_Jan_Pieterszoon)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/336478f5-7449-4ca1-a7b8-7a2bb575855d</metaTag>
     <metaTag name="originalFormat">capx</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/25076</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
-    <metaTag name="workTitle"></metaTag>
+    <metaTag name="workNumber">SwWV 258</metaTag>
+    <metaTag name="workTitle">Fantasia cromatica</metaTag>
     <Part>
       <Staff id="1">
         <StaffType group="pitched">
@@ -184,19 +189,19 @@
         <defaultClef>F</defaultClef>
         <barLineSpan>1</barLineSpan>
         </Staff>
-      <trackName>linke Hand</trackName>
-      <Instrument id="percussive-organ">
-        <trackName></trackName>
-        <instrumentId>keyboard.organ.percussive</instrumentId>
+      <trackName>Organ</trackName>
+      <Instrument id="organ">
+        <trackName>Organ</trackName>
+        <instrumentId>keyboard.organ</instrumentId>
         <Channel>
           <controller ctrl="32" value="17"/>
-          <program value="17"/>
+          <controller ctrl="32" value="17"/>
+          <program value="19"/>
           <synti>Fluid</synti>
           </Channel>
-        <Channel name="harmony">
-          <program value="0"/>
-          <synti>Fluid</synti>
-          </Channel>
+        <longName>Organ</longName>
+        <shortName>Org.</shortName>
+        <clef>F</clef>
         </Instrument>
       </Part>
     <Part>
@@ -207,9 +212,10 @@
         </Staff>
       <trackName>Pedal</trackName>
       <Instrument id="organ">
-        <trackName></trackName>
+        <trackName>Pedal</trackName>
         <instrumentId>keyboard.organ</instrumentId>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -222,12 +228,15 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>4</height>
+        <height>15.0805</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <text>Fantasia Cromatica
-SwWV258</text>
+          <text>Fantasia cromatica, SwWV 258</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Jan Pieterszoon Sweelinck</text>
           </Text>
         </VBox>
       <Measure>
@@ -333,13 +342,6 @@ SwWV258</text>
             </Rest>
           </voice>
         <voice>
-          <StaffText>
-            <family>Times New Roman</family>
-            <size>7</size>
-            <offset x="4.04113" y="-11.5804"/>
-            <text>Jan Pieterszoon Sweelinck
- (1562-1621)</text>
-            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -24359,13 +24361,7 @@ SwWV258</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)/v</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>V(+4)/v</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/2</fractions>
@@ -27594,13 +27590,7 @@ SwWV258</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V(4)/III</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>V(+4)/III</name>
-            <color r="0" g="85" b="0" a="255"/>
             <offset x="0" y="4.2436"/>
             </Harmony>
           <location>
@@ -29235,13 +29225,7 @@ SwWV258</text>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>v</name>
-            <color r="170" g="0" b="0" a="255"/>
-            </Harmony>
-          <Harmony>
-            <harmonyType>1</harmonyType>
             <name>V/v</name>
-            <color r="0" g="85" b="0" a="255"/>
             </Harmony>
           <location>
             <fractions>1/4</fractions>

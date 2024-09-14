@@ -13,8 +13,6 @@ mc	mn	quarterbeats	quarterbeats_all_endings	duration_qb	mc_onset	mn_onset	event	
 5	5	16	16	4.0	0	0	Chord	4/4	1	2	1	1	1	7								
 5	5	16	16	2.0	0	0	Chord	4/4	2	1	1/2	1/2	1	8								
 5	5	19	19	1.0	3/4	3/4	Chord	4/4	2	1	1/4	1/4	1	9								
-6	6	20	20	0.0	0	0	StaffText	4/4	1	2	0					"Jan Pieterszoon Sweelinck
- (1562-1621)"						
 6	6	20	20	2.0	0	0	Chord	4/4	1	2	1/2	1/2	1	10								
 6	6	22	22	2.0	1/2	1/2	Chord	4/4	1	2	1/2	1/2	1	11								
 6	6	20	20	1.0	0	0	Chord	4/4	2	1	1/4	1/4	1	12								
