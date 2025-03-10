@@ -29,7 +29,7 @@
         }
     ],
     "upload_type": "dataset",
-    "version": "v2.2",
+    "version": "v2.3",
     "communities": [
         {
             "identifier": "dcml"
@@ -38,7 +38,7 @@
             "identifier": "epfl"
         }
     ],
-    "publication_date": "2025-03-03",
+    "publication_date": "2025-03-10",
     "creators": [
         {
             "orcid": "0000-0002-1986-9545",
@@ -65,7 +65,7 @@
     "related_identifiers": [
         {
             "scheme": "url",
-            "identifier": "https://github.com/DCMLab/sweelinck_keyboard/tree/v2.2",
+            "identifier": "https://github.com/DCMLab/sweelinck_keyboard/tree/v2.3",
             "relation": "references"
         },
         {
