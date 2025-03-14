@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/github/v/release/DCMLab/sweelinck_keyboard?display_name=tag)
-[![DOI](https://zenodo.org/badge/{{ zenodo_badge_id }}.svg)](https://doi.org/{{ concept_doi }})
+[![DOI](https://zenodo.org/badge/388188407.svg)](https://doi.org/10.5281/zenodo.14997111)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/sweelinck_keyboard)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
@@ -14,14 +14,6 @@ For information on how to obtain and use the dataset, please refer to [this docu
 
 # Jan Sweelinck – Organ Pieces (A corpus of annotated scores)
 
-Though Sweelinck's contemporary cultural environment and training arguably belong to the Renaissance, his status as an
-influential organ teacher made him extremely significant in the establishment of the Baroque. The precision of imitative
-counterpoint and the handling of chromatic motion demonstrated in this Fantasia foreshadow, both in impact and in
-technical function, the fugues that J.S. Bach would write over a century later. Though its composition date is not
-specifically known, this may be the oldest work in the Distant Listening Corpus, and its harmonic successions are
-somewhat indeterminate in their syntax, characteristic of the Renaissance; however, the chromatic working that appears
-throughout creates strong leading-tone functions which hint at the dominant-centric approach to harmonic function that
-would emerge in the century after Sweelinck's death.
 
 ## Getting the data
 
@@ -88,7 +80,7 @@ Please [create an issue](https://github.com/DCMLab/sweelinck_keyboard/issues) an
 
 ## Cite as
 
-> Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Jan Sweelinck – Organ Pieces (A corpus of annotated scores) [Data set]. Zenodo. https://doi.org/{{ concept_doi }}
+> Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Jan Sweelinck – Organ Pieces (A corpus of annotated scores) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14997111
 
 ## License
 
@@ -96,10 +88,4 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License 
 
 ![cc-by-nc-sa-image](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
 
-## Overview
-|        file_name         |measures|labels|standard| annotators |
-|--------------------------|-------:|-----:|--------|------------|
-|SwWV258_fantasia_cromatica|     196|   501|2.1.0   |Adrian Nagel|
-
-
-*Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
+## File naming convention
